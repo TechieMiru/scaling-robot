@@ -1,0 +1,36 @@
+@import "tailwindcss/base";
+body{
+    @apply bg-gray-900;
+    @apply cursor-not-allowed;
+}
+
+@import "tailwindcss/components";
+
+.my-icon:hover{
+     fill: #08e488;
+}
+.btn-cus{
+    @apply text-gray-200 font-bold px-6 bg-blue-600 rounded-lg mx-auto;
+}
+.btn-blue:hover {
+    @apply bg-blue-700;
+}
+.cursor{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fefefe;
+    border-radius: 100%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999; 
+    mix-blend-mode: difference;
+}
+
+/*
+    z-index is the stacking order
+*/
+
+
+@import "tailwindcss/utilities";
+
